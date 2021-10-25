@@ -1,4 +1,4 @@
-export class Budget {
+class Budget {
   constructor(balance) {
     this.balance = balance;
   }
@@ -9,3 +9,5 @@ export class Budget {
     this.balance = amount;
   }
 }
+
+module.export = Budget;
